@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(124, 194, 218);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  height: 30rem;
+  width: 20rem;
+  border: solid;
+  border-radius: 25px;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto; /* Define row sizes */ /* Full viewport height */
+  gap: 0px; /* Space between rows */
+  box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+.image-container {
+  align-self: start;
+  background-color: blue;
+  height: 10rem;
+  border-top-right-radius: 22px;
+  border-top-left-radius: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-container {
+  align-self: center;
+  background-color: rgb(255, 255, 255);
+  height: 4rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.paragraph-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(253, 255, 255);
+  height: 8rem;
+}
+
+.button-container {
+  background-color: darkblue;
+  height: 6rem;
+  border-bottom-left-radius: 22px;
+  border-bottom-right-radius: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  background-image: url(profile.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+  height: 6em;
+  width: 6em;
+  border-radius: 50px;
+  border: solid;
+}
+
+.main-text {
+  font-family: verdana;
+  background-color: white;
+  text-align: center;
+  height: 3em;
+  width: 14em;
+  line-height: 3em;
+}
+.handle-container {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+}
+.handle {
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  line-height: 1em;
+  height: 1em;
+  width: 7em;
+  text-align: center;
+}
+.paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: verdana;
+  height: 5em;
+  width: 18em;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.paragraph p {
+  font-size: 15px;
+}
+
+.button-container button {
+  width: 8rem;
+  height: 2.5em;
+  margin: 1em;
+  border-radius: 15px;
+}
+
+.Follow {
+  background-color: rgb(0, 174, 255);
+  color: white;
+  font-family: verdana;
+  font-size: 15px;
+}
+.Message {
+  font-family: verdana;
+  font-size: 15px;
+  color: rgb(0, 174, 255);
+}
