@@ -129,9 +129,12 @@ body {
   margin: 5%;
   background-color: white;
   grid-row: 4;
-  background-image: url(burgir3.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border: solid;
+  background-image: url(burgir3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
