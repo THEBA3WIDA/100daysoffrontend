@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: red;
+  height: 30rem;
+  width: 40rem;
+  border: solid;
+  border-radius: 25px;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 0px;
+}
+
+.sidebar {
+  background-color: blue;
+  border-top-left-radius: 22px;
+  border-bottom-left-radius: 22px;
+  grid-column: span 1;
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  gap: 10px;
+}
+
+.main_area {
+  background-color: blueviolet;
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
+  display: grid;
+  grid-column: span 9;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.image_container {
+  grid-column: span 4;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_container {
+  grid-column: span 6;
+  background-color: rgb(111, 204, 24);
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
+  display: grid;
+  grid-template-rows: repeat(10, 1fr);
+}
+
+.image {
+  background-color: white;
+  width: 14rem;
+  height: 20rem;
+  border-radius: 5px;
+}
+
+.product_name {
+  grid-row: 2;
+  background-color: black;
+}
+
+.product_desc {
+  grid-row: 3/5;
+  background-color: blue;
+}
+
+.product_desc_small {
+  grid-row: 5;
+  background-color: aqua;
+}
+
+.price {
+  background-color: chocolate;
+  grid-row: 6/7;
+}
+
+.small_price {
+  background-color: bisque;
+  grid-row: 7;
+}
+
+.size {
+  background-color: beige;
+  grid-row: 8/10;
+}
+
+.addtobag {
+  background-color: aquamarine;
+  grid-row: 10;
+  border-bottom-right-radius: 22px;
+}
+
+.img1 {
+  border-radius: 5px;
+  margin: 5%;
+  background-color: white;
+  grid-row: 2;
+  background-image: url(burgir1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: solid;
+}
+
+.img2 {
+  border-radius: 5px;
+  margin: 5%;
+  background-color: white;
+  grid-row: 3;
+  background-image: url(burgir2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: solid;
+}
+
+.img3 {
+  border-radius: 5px;
+  margin: 5%;
+  background-color: white;
+  grid-row: 4;
+  background-image: url(burgir3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: solid;
+}
