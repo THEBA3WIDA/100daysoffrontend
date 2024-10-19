@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  font-family: verdana;
+  background-color: rgb(225, 220, 220);
+  border: solid;
+  height: 37rem;
+  width: 20rem;
+  display: grid;
+  grid-template-rows: repeat(27, 1fr);
+  border-radius: 15px;
+  font-family: "Arial Black", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.heading {
+  border-top-left-radius: 11px;
+  border-top-right-radius: 10px;
+  background-color: rgb(225, 220, 220);
+  grid-row: span 3;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.emptyhr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainarea {
+  background-color: rgb(225, 220, 220);
+  grid-row: span 10;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.endarea {
+  background-color: rgb(225, 220, 220);
+  grid-row: span 4;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.lowbare {
+  background-color: rgb(225, 220, 220);
+  grid-row: 24/27;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.image_container {
+  border-top-left-radius: 12px;
+  background-color: rgb(225, 220, 220);
+  grid-column: span 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_container {
+  background-color: rgb(225, 220, 220);
+  border-top-right-radius: 11px;
+  grid-column: span 8;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.title {
+  background-color: rgb(225, 220, 220);
+  display: flex;
+  align-items: center;
+  border-top-right-radius: 10px;
+}
+.smalltxt {
+  background-color: rgb(225, 220, 220);
+}
+
+.personaldata {
+  background-color: rgb(225, 220, 220);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.messages {
+  background-color: rgb(225, 220, 220);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.notifications {
+  background-color: rgb(225, 220, 220);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.location {
+  background-color: rgb(225, 220, 220);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.community {
+  background-color: rgb(225, 220, 220);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.faq {
+  background-color: rgb(225, 220, 220);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.settings {
+  background-color: rgb(225, 220, 220);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.home {
+  background-color: rgb(225, 43, 180);
+}
+
+.idk1 {
+  background-color: pink;
+}
+
+.idk2 {
+  background-color: purple;
+}
+
+.idk3 {
+  background-color: brown;
+}
+
+.image {
+  height: 80%;
+  aspect-ratio: 1;
+  border-radius: 13px;
+  background-image: url(/day1/profile.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.svg1 {
+  background-color: red;
+  grid-column: 2/4;
+  margin: 5% 10%;
+  border-radius: 9px;
+}
+
+.svg2 {
+  background-color: red;
+  grid-column: 2/4;
+  margin: 5% 10%;
+  border-radius: 9px;
+}
+.svg3 {
+  background-color: red;
+  grid-column: 2/4;
+  margin: 5% 10%;
+  border-radius: 9px;
+}
+.svg4 {
+  background-color: red;
+  grid-column: 2/4;
+  margin: 5% 10%;
+  border-radius: 9px;
+}
+.svg5 {
+  background-color: red;
+  grid-column: 2/4;
+  margin: 5% 10%;
+  border-radius: 9px;
+}
+.svg6 {
+  background-color: red;
+  grid-column: 2/4;
+  margin: 5% 10%;
+  border-radius: 9px;
+}
+.svg7 {
+  background-color: red;
+  grid-column: 2/4;
+  margin: 5% 10%;
+  border-radius: 9px;
+}
+
+.headering {
+  background-color: rgb(234, 152, 152);
+  grid-column: span 8;
+  margin: 5%;
+}
+
+.buttonarw {
+  margin: 5%;
+  background-color: rgb(201, 55, 55);
+  border: none;
+  border-radius: 5px;
+  font-family: "Arial Black", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+
+.hrh {
+  margin-top: 5%;
+  height: 100%;
+  width: 80%;
+}
