@@ -142,7 +142,7 @@ body {
   height: 80%;
   aspect-ratio: 1;
   border-radius: 13px;
-  background-image: url(/day1/profile.jpg);
+  background-image: url(../day1/profile.jpg);
   background-position: center;
   background-size: cover;
 }
