@@ -12,8 +12,8 @@ body {
 
 .container {
   font-family: verdana;
-  background-color: rgb(225, 220, 220);
-  border: solid;
+  background-color: white;
+  border: solid 1px;
   height: 37rem;
   width: 20rem;
   display: grid;
@@ -22,15 +22,16 @@ body {
   font-family: "Arial Black", "Helvetica Neue", sans-serif;
   font-weight: bold;
   font-size: 0.9rem;
+  box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.5);
 }
 
 .heading {
   border-top-left-radius: 11px;
   border-top-right-radius: 10px;
-  background-color: rgb(225, 220, 220);
+
   grid-row: span 3;
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(15, 1fr);
 }
 
 .emptyhr {
@@ -40,37 +41,35 @@ body {
 }
 
 .mainarea {
-  background-color: rgb(225, 220, 220);
   grid-row: span 10;
   display: grid;
   grid-template-rows: repeat(5, 1fr);
 }
 
 .endarea {
-  background-color: rgb(225, 220, 220);
   grid-row: span 4;
   display: grid;
   grid-template-rows: repeat(2, 1fr);
 }
 
 .lowbare {
-  background-color: rgb(225, 220, 220);
-  grid-row: 24/27;
+  grid-row: 24/26;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 
 .image_container {
+  padding-top: 0.5em;
+  padding-right: 0.4em;
   border-top-left-radius: 12px;
-  background-color: rgb(225, 220, 220);
-  grid-column: span 2;
+
+  grid-column: 2;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .text_container {
-  background-color: rgb(225, 220, 220);
   border-top-right-radius: 11px;
   grid-column: span 8;
   display: grid;
@@ -78,67 +77,65 @@ body {
 }
 
 .title {
-  background-color: rgb(225, 220, 220);
+  padding-top: 1em;
   display: flex;
   align-items: center;
   border-top-right-radius: 10px;
 }
 .smalltxt {
-  background-color: rgb(225, 220, 220);
+  font-size: 0.8rem;
 }
 
 .personaldata {
-  background-color: rgb(225, 220, 220);
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(20, 1fr);
 }
 .messages {
-  background-color: rgb(225, 220, 220);
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(20, 1fr);
 }
 .notifications {
-  background-color: rgb(225, 220, 220);
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(20, 1fr);
 }
 .location {
-  background-color: rgb(225, 220, 220);
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(20, 1fr);
 }
 
 .community {
-  background-color: rgb(225, 220, 220);
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(20, 1fr);
 }
 
 .faq {
-  background-color: rgb(225, 220, 220);
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(20, 1fr);
 }
 .settings {
-  background-color: rgb(225, 220, 220);
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(20, 1fr);
 }
 
 .home {
-  background-color: rgb(225, 43, 180);
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
 }
 
 .idk1 {
-  background-color: pink;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
 }
 
 .idk2 {
-  background-color: purple;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
 }
 
 .idk3 {
-  background-color: brown;
+  align-self: center;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
 }
 
 .image {
@@ -151,58 +148,58 @@ body {
 }
 
 .svg1 {
-  background-color: red;
-  grid-column: 2/4;
-  margin: 5% 10%;
+  background-color: rgb(128, 126, 126);
+  grid-column: 2/5;
+  margin: 5%;
   border-radius: 9px;
 }
 
 .svg2 {
-  background-color: red;
-  grid-column: 2/4;
-  margin: 5% 10%;
+  background-color: rgb(128, 126, 126);
+  grid-column: 2/5;
+  margin: 5%;
   border-radius: 9px;
 }
 .svg3 {
-  background-color: red;
-  grid-column: 2/4;
-  margin: 5% 10%;
+  background-color: rgb(128, 126, 126);
+  grid-column: 2/5;
+  margin: 5%;
   border-radius: 9px;
 }
 .svg4 {
-  background-color: red;
-  grid-column: 2/4;
-  margin: 5% 10%;
+  background-color: rgb(128, 126, 126);
+  grid-column: 2/5;
+  margin: 5%;
   border-radius: 9px;
 }
 .svg5 {
-  background-color: red;
-  grid-column: 2/4;
-  margin: 5% 10%;
+  background-color: rgb(128, 126, 126);
+  grid-column: 2/5;
+  margin: 5%;
   border-radius: 9px;
 }
 .svg6 {
-  background-color: red;
-  grid-column: 2/4;
-  margin: 5% 10%;
+  background-color: rgb(128, 126, 126);
+  grid-column: 2/5;
+  margin: 5%;
   border-radius: 9px;
 }
 .svg7 {
-  background-color: red;
-  grid-column: 2/4;
-  margin: 5% 10%;
+  background-color: rgb(128, 126, 126);
+  grid-column: 2/5;
+  margin: 5%;
   border-radius: 9px;
 }
 
 .headering {
-  background-color: rgb(234, 152, 152);
-  grid-column: span 8;
+  background-color: white;
+  grid-column: span 14;
   margin: 5%;
 }
 
 .buttonarw {
   margin: 5%;
-  background-color: rgb(201, 55, 55);
+  background-color: white;
   border: none;
   border-radius: 5px;
   font-family: "Arial Black", "Helvetica Neue", sans-serif;
@@ -214,4 +211,27 @@ body {
   margin-top: 5%;
   height: 100%;
   width: 80%;
+}
+
+.buttonarw:hover {
+  background-color: rgb(248, 247, 245);
+}
+
+.svgholder {
+  grid-row: span 3;
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textarea {
+  text-align: center;
+}
+
+.img {
+  background-color: rgb(128, 126, 126);
+  height: 3rem;
+  width: 3rem;
+  border-radius: 10px;
 }
